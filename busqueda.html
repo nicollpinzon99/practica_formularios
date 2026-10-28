@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Búsqueda de libros</title>
+</head>
+<body>
+  <main>
+    <h1>Buscar libros</h1>
+
+    <ul>
+      <li>Ana Vega</li>
+      <li>Rutas del Sur</li>
+      <li>Historias del río - Leo Paz</li>
+    </ul>
+
+    <div>
+      <form action="">
+        <label for="nombre_libro">Nombre del libro:</label>
+        <input type="text" id="nombre_libro" name="nombre_libro" >
+      </form>
+    </div>
+
+    <div>
+      <form action="">
+        <label for="codigo_biblio">Código de la biblioteca (opcional):</label>
+        <input type="text" id="codigo_biblio" name="codigo_biblio" pattern="[A-Z]{3}-[0-9]{3}">>
+      </form>
+    </div>
+
+    <div>
+      <button type="button">Buscar</button>
+    </div>
+  </main>
+</body>
+</html>
